@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_quick_actions"
+            android:title="HOME" />
+        <item
+            android:id="@+id/edit_profile"
+            android:icon="@drawable/ic_edit_profile"
+            android:title="EDIT PROFILE" />
+        <item
+            android:id="@+id/transactions"
+            android:icon="@drawable/ic_transaction"
+            android:title="TRANSACTIONS" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search"
+            android:title="SEARCH" />
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/ic_support"
+            android:title="SUPPORT" />
+    </group>
+</menu>
